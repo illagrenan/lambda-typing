@@ -31,7 +31,7 @@ Introduction
 
 This package contains ``LambdaDict`` and ``LambdaContext`` types for AWS Lambda handler parameters.
 
-:sparkling_heart: Credits: https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d13
+Credits: https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d13 :sparkling_heart:
 
 Installation
 ------------
