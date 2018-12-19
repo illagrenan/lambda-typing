@@ -10,7 +10,6 @@ python:
 install:
   - pip install --quiet --upgrade -r requirements.txt
   - pip install --quiet --upgrade setuptools wheel
-  - pip install --quiet --upgrade "$DJANGO"
 script:
   - inv test
   - inv build
