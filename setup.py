@@ -8,7 +8,7 @@ from setuptools import setup
 setup(
     name='lambda-typing',
     version='0.1.0',
-    description="""Django JSON encoder with numpy support.""",
+    description="""Typehints for AWS Lambda""",
     long_description=io.open("README.rst", 'r', encoding="utf-8").read(),
     url='https://github.com/illagrenan/lambda-typing',
     project_urls={
