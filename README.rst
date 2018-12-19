@@ -29,7 +29,9 @@
 Introduction
 ------------
 
-TODO
+This package contains ``LambdaDict`` and ``LambdaContext`` types for AWS Lambda handler parameters.
+
+Credits: https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d13
 
 Installation
 ------------
@@ -43,7 +45,19 @@ Installation
 Usage
 -----
 
-TODO
+.. code:: python
+
+    from lambda_typing.types import LambdaDict, LambdaContext
+
+
+    def handle_event(event: LambdaDict, context: LambdaContext) -> LambdaDict:
+        ...
+
+        return {
+            "message": "Foo bar",
+            "event": event
+        }
+
 
 License
 -------
