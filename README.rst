@@ -1,6 +1,6 @@
-===============
-λ Lambda Typing
-===============
+================================
+λ :snake: :rocket: Lambda Typing
+================================
 
 .. image:: https://img.shields.io/pypi/v/lambda-typing.svg
     :target: https://pypi.python.org/pypi/lambda-typing
