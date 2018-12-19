@@ -31,7 +31,7 @@ class LambdaClientContext:
 
 
 # https://docs.aws.amazon.com/lambda/latest/dg/python-context-object.html
-# https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d13
+# https://gist.github.com/alexcasalboni/a545b68ee164b165a74a20a5fee9d133
 class LambdaContext:
     function_name: str
     function_version: str
