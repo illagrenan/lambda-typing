@@ -1,0 +1,12 @@
+# pyup: ignore file
+
+# Requirements needed for development & build & testing
+pytest
+coverage
+coveralls
+wheel
+setuptools
+docutils
+pygments
+invoke
+twine

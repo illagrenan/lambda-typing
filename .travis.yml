@@ -1,0 +1,22 @@
+language: python
+sudo: false
+dist: xenial
+python:
+  - "3.6"
+  - "3.6-dev"
+  - "3.7"
+  - "3.7-dev"
+  - "nightly"
+install:
+  - pip install --quiet --upgrade -r requirements.txt
+  - pip install --quiet --upgrade setuptools wheel
+  - pip install --quiet --upgrade "$DJANGO"
+script:
+  - inv test
+  - inv build
+  - inv test-install
+  - inv coverage
+after_success:
+  - coveralls
+notifications:
+  email: false
